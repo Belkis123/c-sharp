@@ -83,7 +83,7 @@ namespace inventario
             Console.WriteLine();
 
             Console.WriteLine("Ajuste Negativo de Productos al Inventario");
-            Console.WriteLine("**********************************");
+            Console.WriteLine("******************************************");
             Console.Write("Ingrese el codigo del producto: ");
             codigo = Console.ReadLine();
             Console.Write("Ingrese la cantidad del producto: ");
@@ -99,7 +99,7 @@ namespace inventario
             Console.WriteLine();
 
             Console.WriteLine("Ajuste porsitivo de Productos al Inventario");
-            Console.WriteLine("**********************************");
+            Console.WriteLine("*******************************************");
             Console.Write("Ingrese el codigo del producto: ");
             codigo = Console.ReadLine();
             Console.Write("Ingrese la cantidad del producto: ");
