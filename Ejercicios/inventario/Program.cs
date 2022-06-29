@@ -138,11 +138,12 @@ namespace inventario
                     case "3":
                         salidaDeInventario();
                         break;
-                     case "4":
+                    case "4":
                         ajusteNegativoDeInventario();
-                     break;
-                     case "5":
+                        break;
+                    case "5":
                         ajustePositivoDeInventario();
+                        break;
                     default:
                     break;
                 }
