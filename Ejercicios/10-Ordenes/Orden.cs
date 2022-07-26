@@ -21,8 +21,7 @@ public class Orden
         Cliente = cliente;
         Vendedor = vendedor;
         ListaOrdenDetalle = new List<OrdenDetalle>();
-        SubTotal= SubTotal;
-        Impuesto= Impuesto;
+        
 
     }
 
