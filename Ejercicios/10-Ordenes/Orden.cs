@@ -34,7 +34,7 @@ public class Orden
         ListaOrdenDetalle.Add(o);
 
 
-        SubTotal=cantidad * producto.Precio;
+        SubTotal +=cantidad * producto.Precio;
         Impuesto= SubTotal * 0.15;
         Total = SubTotal + Impuesto;
     }
