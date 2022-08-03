@@ -4,17 +4,17 @@ public class PezEspada: Acuaticos
 {
     public string Memoria { get; set; }
 
-    public void rapidez()
+    public void PerderMermoria()
     {
         Console.WriteLine("Hons toy?Que hacia?A donde iba?");
     }
 
     public void MemoryLost()
     {
-        Velocidad();
+        MemoriaPerdida();
     }
 
-    private void Velocidad()
+    private void MemoriaPerdida()
     {
         Console.WriteLine("Nadaremos Nadaharemos Nadaharemos...");
     }

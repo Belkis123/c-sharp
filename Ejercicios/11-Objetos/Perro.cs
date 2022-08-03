@@ -2,16 +2,16 @@ using System;
 public class Perro: Mamifero
 {
     public string Amamanta{ get; set; }
-    public bool Ladran { get; set; }
+    public bool HacenGuau { get; set; }
 
     public Perro() // Polimorfismo
     {
-        Ladran = true;
+        HacenGuau = true;
     }
 
-    public Perro(bool ladran) // Polimorfismo
+    public Perro(bool hacenGuau) // Polimorfismo
     {
-        Ladran = ladran;
+        HacenGuau= hacenGuau;
     }
     public void Ladran()
     {

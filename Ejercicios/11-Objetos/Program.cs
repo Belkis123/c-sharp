@@ -33,7 +33,8 @@ namespace animales
             p.Nombre = "Perrito Pinki";
             p.Patas = 4;
             p.Comer();
-            p.Ladran = true;
+            p.HacenGuau= true;
+            p.Caminar();
             
 
             Console.WriteLine(p.Nombre);
@@ -64,18 +65,6 @@ namespace animales
             Console.WriteLine("************");
             Console.WriteLine("- Pato -");
             Console.WriteLine("*************");
-
-            P.Nombre = "Patito Juan";
-            P.Orden ="Anseriformes";
-            P.Familia = "Anseriformes";
-            P.Comer();
-            P.Volar();
-            P.ColorPlumaje = "Color Azul  con pico largo y aplanado,";
-
-            Console.WriteLine(P.Nombre);
-            Console.WriteLine(P.Familia);
-            Console.WriteLine(P.Orden);
-
             
 
             Console.WriteLine();
@@ -84,12 +73,13 @@ namespace animales
             Console.WriteLine("************");
             Console.WriteLine(" Pez Espada  ");
             Console.WriteLine("************");
-            pe.Nombre = "Lucky";
+            pe.Nombre = " Lucky";
             pe.NumeroAletas = 2;
             pe.Comer();
             pe.Nadar();
-            pe.rapidez();
-            pe.Velocidad();
+            pe.Color = "Azul con rayas negras";
+            pe.PerderMermoria();
+            pe.MemoryLost();
             pe.Color = "Color Azul  con pico largo y aplanado,";
 
             Console.WriteLine(pe.Nombre);
