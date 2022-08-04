@@ -14,7 +14,7 @@ public class Leon: Mamifero
     {
         EsFeroz = esFeroz;
     }
-    public void Rugir()
+    public void Rugir()// Abstraccion
     {
         Console.WriteLine("No se preocupa por opinion de las ovejas ");
 

@@ -14,7 +14,7 @@ public class Gato: Mamifero
     {
         EsLindo= esLindo;
     }
-    public void Maullar()
+    public void Maullar() //  Abstraccion
     {
         Console.WriteLine("Los Gatitos hacen Miauuu Miauuu ");
 

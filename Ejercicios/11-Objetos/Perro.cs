@@ -13,7 +13,7 @@ public class Perro: Mamifero
     {
         HacenGuau= hacenGuau;
     }
-    public void Ladran()
+    public void Ladran() //  Abstraccion
     {
         Console.WriteLine("Mi Perrito es Bonito...");
 

@@ -15,7 +15,7 @@ public class Pato: Metazoos
         DescribirPlumaje();
     }
 
-    private void DescribirPlumaje()
+    private void DescribirPlumaje() //  Abstraccion
     {
         Console.WriteLine("Sus Plumas son pequeñas y rizadas en su cola");
     }

@@ -14,7 +14,7 @@ public class Tiburon: Acuaticos
         Porras();
     }
 
-    private void Porras()
+    private void Porras() // Abstraccion
     {
         Console.WriteLine("Cuerpo alargado que está soportado por cartílago y recubierto de piel");
     }
