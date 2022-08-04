@@ -3,7 +3,7 @@ using System;
 public abstract class Avioticos: Metazoos
 {
     public int Patas { get; set; }
-    public string ColorPlumaje { get; set; }
+    public string DescribirPlumaje { get; set; }
 
     public void Volar()
     {

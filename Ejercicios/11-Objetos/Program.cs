@@ -49,7 +49,7 @@ namespace animales
             Console.WriteLine("               GATO "           );
             Console.WriteLine("            **********"         );
             g.Nombre = " Nombre:Gatito Lotty";
-            g.Patas = 2;
+            g.Patas = 4;
             g.Pelaje = "Pelaje: Sirve para protegerse de las altas y bajas temperaturas";
             g.Maullar();
             g.Comer();
