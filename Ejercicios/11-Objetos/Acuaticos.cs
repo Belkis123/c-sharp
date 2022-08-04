@@ -7,6 +7,6 @@ public abstract class Acuaticos: Metazoos
 
     public void Nadar()
     {
-        Console.WriteLine("Nadar, nadaremos nadaharemos nadaharemos...");
+        Console.WriteLine("Nadare y Nadare hasta encontrarte y te Mordere");
     }
 }

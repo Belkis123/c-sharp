@@ -2,7 +2,7 @@ using System;
 
 public class PezEspada: Acuaticos
 {
-    public string Muerde { get; set; }
+    public string Memoria { get; set; }
 
     public void Predador()
     {
