@@ -16,6 +16,6 @@ public class PezEspada: Acuaticos
 
     private void DientesAfilados()
     {
-        Console.WriteLine("Nadare y Nadare hasta encontrarte y te Mordere");
+        Console.WriteLine("");
     }
 }

@@ -83,7 +83,6 @@ namespace animales
             pe.NumeroAletas = 2;
             pe.Comer();
             pe.Nadar();
-            pe.Predador();
             pe.Escamas();
             pe.Color = " Color: Color Azul  con pico largo y aplanado ";
 
