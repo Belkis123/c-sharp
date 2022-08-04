@@ -5,7 +5,7 @@ public abstract class Mamifero: Metazoos
 
     public void Caminar()
     {
-        Console.WriteLine("Caminando o corriendo, escapando por tu vida Corre, corre, coreee..."); 
+        Console.WriteLine(" Tenemos glándulas mamarias productoras de leche mediante las que alimentamos a nuestras crías"); 
     }
 
 }

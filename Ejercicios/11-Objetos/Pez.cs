@@ -2,20 +2,20 @@ using System;
 
 public class PezEspada: Acuaticos
 {
-    public string Memoria { get; set; }
+    public string Muerde { get; set; }
 
-    public void PerderMermoria()
+    public void Predador()
     {
-        Console.WriteLine("Hons toy?Que hacia?A donde iba?");
+        Console.WriteLine("Me Dicen El Gladiador?");
     }
 
-    public void MemoryLost()
+    public void Escamas()
     {
-        MemoriaPerdida();
+        DientesAfilados();
     }
 
-    private void MemoriaPerdida()
+    private void DientesAfilados()
     {
-        Console.WriteLine("Nadaremos Nadaharemos Nadaharemos...");
+        Console.WriteLine("Nadare y Nadare hasta encontrarte y te Mordere");
     }
 }

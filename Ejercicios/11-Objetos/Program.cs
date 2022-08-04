@@ -63,7 +63,7 @@ namespace animales
 
             Pato P = new Pato();
             Console.WriteLine("************");
-            Console.WriteLine("- Pato -");
+            Console.WriteLine("     Pato   ");
             Console.WriteLine("*************");
             
 
@@ -78,8 +78,8 @@ namespace animales
             pe.Comer();
             pe.Nadar();
             pe.Color = "Azul con rayas negras";
-            pe.PerderMermoria();
-            pe.MemoryLost();
+            pe.Predador();
+            pe.Escamas();
             pe.Color = "Color Azul  con pico largo y aplanado,";
 
             Console.WriteLine(pe.Nombre);
