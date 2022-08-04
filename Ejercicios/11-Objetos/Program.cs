@@ -65,7 +65,13 @@ namespace animales
             Console.WriteLine("************");
             Console.WriteLine("     Pato   ");
             Console.WriteLine("*************");
+            Pato L = new Pato();
+            P.Nombre = "Patito Juan";
+            P.Plumaje();       
             
+
+            Console.WriteLine(P.Nombre);
+            Console.WriteLine(P.Nadan);
 
             Console.WriteLine();
 

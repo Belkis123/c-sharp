@@ -1,5 +1,5 @@
 using System;
-public abstract class Mamifero: Metazoos 
+public abstract class Mamifero: Metazoos
 {
     public int Patas { get; set; }
 

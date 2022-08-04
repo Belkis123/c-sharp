@@ -16,7 +16,7 @@ public class Leon: Mamifero
     }
     public void Rugir()
     {
-        Console.WriteLine("Un leon no se preocupa por opinion de las ovejas ");
+        Console.WriteLine("No se preocupa por opinion de las ovejas ");
 
     }
 

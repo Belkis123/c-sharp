@@ -2,8 +2,8 @@ using System;
 
 public class Pato: Metazoos
 {
-    public string Orden { get; set; }
-    public string Familia { get; set; }
+    public string Domestico { get; set; }
+    public string Nadan { get; set; }
 
     public void Parlotean()
     {

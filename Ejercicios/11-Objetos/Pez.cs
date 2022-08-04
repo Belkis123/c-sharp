@@ -6,7 +6,7 @@ public class PezEspada: Acuaticos
 
     public void Predador()
     {
-        Console.WriteLine("Me Dicen El Gladiador?");
+        Console.WriteLine("Me Dicen El Gladiador");
     }
 
     public void Escamas()
