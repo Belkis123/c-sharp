@@ -3,38 +3,27 @@ using System.Collections.Generic;
 
 public class Notas
 {
-    public int Codigo { get; set; }
-    public DateTime Fecha { get; set; }
-    public string NumerodeOrdendeClase { get; set; }
-    public Estudiante Estudiante{ get; set; }
-    public Acumulados Acumulados { get; set; }
-    public List<DatosNotas> ListaDatosNotas { get; set; }
-    public double TotalFinal { get; set; }
+    public List<DetalleNotas> ListaDatosNotas { get; set; }
+    public Matricula Estudiante { get; set; }
+
+    public Matricula Asignatura { get; set; }
+    public int NotaFinal { get; set; }
+         
+         
+         
+    public Notas(Matricula estudiante, Matricula asignatura)
+    {
     
-
-    public Notas(int codigo, DateTime fecha, string numeroOrden, Estudiante estudiante, Acumulados acumulados)
-    {
-        Codigo = codigo;
-        Fecha = fecha;
-        NumerodeOrdendeClase = numeroOrden;
         Estudiante = estudiante;
-        Acumulados= acumulados;
-        ListaDatosNotas = new List<DatosNotas>();
+        Asignatura= asignatura;
+        ListaDatosNotas = new List<DetalleNotas>();
         
 
     }
+    public void AgregarNotas(int nota1, int nota2, int nota3, int nota4, int notafinal)
+{
+    DetalleNotas nota= new DetalleNotas(nota1,nota2,nota3,nota4,notafinal);
+    ListaDatosNotas.Add(nota);
+}
 
-    public void AgregarNota(Notas nota)
-    {
-        int nuevoCodigo = ListaDatosNotas.Count + 1;
-        int cantidad = 1;
-
-        DatosNotas o = new DatosNotas(nuevoCodigo, 1, nota);
-        ListaDatosNotas.Add(o);
-
-
-        NotaFinal +=cantidad / nota;
-        
-    }
-
-    }
+}

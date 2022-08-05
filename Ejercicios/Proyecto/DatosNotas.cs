@@ -1,12 +1,33 @@
 using System;
 using System.Collections.Generic;
-public class DatosNotas
+public class DetalleNotas
 {
     public List<Estudiante> ListadeEstudiantes { get; set; }
-    public List<ClasesDisponibles> ListadeClasesDisponibles { get; set; }
-    public List<Acumulados> ListadeAcumulados { get; set; }
-    public List<NotasFinales> ListadeNotasFinales{ get; set; }
+    public List<Clases> ListadeClasesDisponibles { get; set; }
+
+    public int Nota1 { get; set; }
     
+    public int Nota2 { get; set; }
+
+    public int Nota3 { get; set; }
+
+    public int Nota4 { get; set; }
+
+    public int NotaFinal { get; set; }
+    
+    public DetalleNotas (int nota1, int nota2, int nota3, int nota4,int notafinal)
+    {
+      Nota1=nota1;
+      Nota2= nota2;
+      Nota3=nota3;
+      Nota4= nota4;
+      NotaFinal= notafinal;
+      ListadeEstudiantes= new List<Estudiante>();
+      ListadeClasesDisponibles= new List<Clases>();
+
+
+
+    }
 
 
     public DatosNotas()
