@@ -1,6 +1,6 @@
 using System;
 
-public abstract class Acuaticos: Metazoos
+public abstract class Acuaticos: Animales
 {
     public int NumeroAletas { get; set; }
     public string Color { get; set; }

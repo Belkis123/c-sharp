@@ -1,6 +1,6 @@
 using System;
 
-public class Pato: Metazoos
+public class Pato: Animales
 {
     public string Domestico { get; set; }
     public string Nadan { get; set; }

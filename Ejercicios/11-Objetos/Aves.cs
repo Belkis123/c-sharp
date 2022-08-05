@@ -1,6 +1,6 @@
 using System;
 
-public abstract class Animals: Metazoos
+public abstract class Animals: Animales
 {
     public int Patas { get; set; }
     public string ColoPlumaje { get; set; }

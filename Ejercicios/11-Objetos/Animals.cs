@@ -1,5 +1,5 @@
 using System;
-public abstract class Metazoos
+public abstract class Animales
 {
     public string Nombre { get; set; }
 
