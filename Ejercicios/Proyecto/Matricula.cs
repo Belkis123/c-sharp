@@ -1,6 +1,7 @@
 using System;
 
 public class Matricula
+{
 
 public Estudiante Estudiante { get; set; }
 
@@ -14,10 +15,11 @@ public DateTime Fecha { get; set; }
 public Matricula(int codigoMatricula, DateTime fecha, Estudiante estudiante,Clases asignatura)
 {
     Fecha= fecha;
-    Alumno= alumno;
+    Estudiante= estudiante;
     Asignatura=asignatura;
-    codigoMatricula= codigoMatricula;
-
-
+    CodigoMatricula= codigoMatricula;
+}
 
 }
+
+

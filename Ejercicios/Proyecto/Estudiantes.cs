@@ -7,7 +7,7 @@ public class Estudiante: Persona
         Nombres = nombres;
         Edad = edad;
     }
-    public void EnviarNotificacion()
+    public void EnviarNotificacio()
     {
          Console.WriteLine("Correo enviado a: " + Nombres);
     }

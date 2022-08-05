@@ -98,14 +98,7 @@ public class DetalleNotas
         ListadeClasesDisponibles.Add(c2);
     }
 
-    private void cargarAcumulados()
-    {
-        Vendedor v1 = new Vendedor(1, "Jose", "V001");
-        ListadeVendedores.Add(v1);
 
-        Vendedor v2 = new Vendedor(2, "Pablo", "V002");
-        ListadeVendedores.Add(v2);
-    }
 
     public void ListarEstudiantes()
     {
@@ -162,7 +155,7 @@ public class DetalleNotas
         string codigoCliente = Console.ReadLine();
 
         Estudiante estudiante = ListadeEstudiantes.Find(c => c.Codigo.ToString() == CodigoEstudiante);        
-        if (cliente == null)
+        if (estudiante == null)
         {
             Console.WriteLine("Estudiante no encontrado");
             Console.ReadLine();
@@ -175,21 +168,21 @@ public class DetalleNotas
         Console.WriteLine("Ingrese el codigo de la Clase: ");
         string codigoClase = Console.ReadLine();
 
-        Clase clases = ListadeClasesDisponibles.Find(v => v.Codigo.ToString() == codigoClase);
-        if (clases == null) 
+        Asignatura asignatura = ListadeClasesDisponibles.Find(v => v.Codigo.ToString() == codigoMatricula);
+        if (asignatura == null) 
         {
             Console.WriteLine("Clase  no encontrada");
             Console.ReadLine();
             return;
         } else {
-            Console.WriteLine("Clase: " + clases.Nombre);
+            Console.WriteLine("Clase: " + asignatura.Nombre);
             Console.WriteLine("");
         }
 
         int nuevoCodigo = ListadeClasesDisponibles.Count + 1;
 
-        Notas nuevaOrden = new Notas(nuevoCodigo, DateTime.Now, "SPS" + nuevoCodigo, cliente, vendedor);
-        ListaOrdenes.Add(nuevaOrden);
+        Notas nuevaOrden = new Notas(nuevoCodigo, DateTime.Now, "SPS" + nuevoCodigo, estudiante,);
+        ListadeClasesDisponibles.Add(nuevaOrden);
 
         while(true)
         {
