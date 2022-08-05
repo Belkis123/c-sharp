@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 
-public class IngresarNotas
+public class Notas
 {
     public int Codigo { get; set; }
     public DateTime Fecha { get; set; }
     public string NumerodeOrdendeClase { get; set; }
     public Estudiante Estudiante{ get; set; }
-    public Acumulados acumulados { get; set; }
-    public List<OrdenDatosNotas> ListaDatosNotas { get; set; }
-    public double Total { get; set; }
+    public Acumulados Acumulados { get; set; }
+    public List<DatosNotas> ListaDatosNotas { get; set; }
+    public double TotalFinal { get; set; }
     
 
-    public Orden(int codigo, DateTime fecha, string numeroOrden, Estudiante estudiante, Acumulados acumulados)
+    public Notas(int codigo, DateTime fecha, string numeroOrden, Estudiante estudiante, Acumulados acumulados)
     {
         Codigo = codigo;
         Fecha = fecha;
@@ -24,16 +24,16 @@ public class IngresarNotas
 
     }
 
-    public void AgregarNota(Notas notas)
+    public void AgregarNota(Notas nota)
     {
         int nuevoCodigo = ListaDatosNotas.Count + 1;
         int cantidad = 1;
 
-        OrdenDatosNotas o = new DatosNotas(nuevoCodigo, 1, notas);
+        DatosNotas o = new DatosNotas(nuevoCodigo, 1, nota);
         ListaDatosNotas.Add(o);
 
 
-        NotaFinal +=cantidad / notas;
+        NotaFinal +=cantidad / nota;
         
     }
 

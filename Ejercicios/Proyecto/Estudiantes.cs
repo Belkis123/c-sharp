@@ -1,12 +1,10 @@
-using System;
-public class Estudiante
+public class Estudiante: Persona
 {
-    public int Codigo { get; set; }
-    public string Nombre { get; set; }
-    public string Telefono { get; set; }
-
-    public void EnviarNotificacion()
+    public double Saldo { get; set; }
+    public Estudiante(int codigo, string nombre, string edad)
     {
-        Console.WriteLine("Correo enviado a: " + Nombre);
+        Codigo = codigo;
+        Nombre = nombre;
+        Edad = edad;
     }
 }

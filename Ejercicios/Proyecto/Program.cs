@@ -6,7 +6,7 @@ namespace Proyecto
     {
         static void Main(string[] args)
         {
-            DatosdePrueba datos = new DatosdePrueba();
+            DatosNotas datos = new DatosNotas
             string opcion = "";
 
             while (true)
@@ -17,7 +17,7 @@ namespace Proyecto
                 Console.WriteLine("--------------------------");
                 Console.WriteLine("");
                 Console.WriteLine("1 - Lista de Estudiantes");
-                Console.WriteLine("2 - Matricular");
+                Console.WriteLine("2 - Crear Matricular");
                 Console.WriteLine("3 - Lista de Clases Disponibles");
                 Console.WriteLine("4 - Acumulados");
                 Console.WriteLine("5 - Notas Finales");

@@ -1,11 +1,11 @@
-public class Acumulados: Estudiante
+public class Acumulados: Persona
 {
-    public string CodigoEstudiante{ get; set; }
+    public string CodigoClase { get; set; }
 
-    public Estudiante(int codigo, string nombreEstudiante, string codigoestudiante)
+    public Acumulados(int clase, string nombre, string codigoVendedor)
     {
-        Codigo = codigo;
-        NombreEstudiante = nombreEstudiante;
-        CodigoEstudiante = codigoestudiante;
+        Clase = codigo;
+        Nombre = nombre;
+        CodigoClase = codigoVendedor;
     }
 }

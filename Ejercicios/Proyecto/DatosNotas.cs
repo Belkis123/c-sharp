@@ -6,7 +6,7 @@ public class DatosNotas
     public List<ClasesDisponibles> ListadeClasesDisponibles { get; set; }
     public List<Acumulados> ListadeAcumulados { get; set; }
     public List<NotasFinales> ListadeNotasFinales{ get; set; }
-    public List<matriculados> matriculados{ get; set; }
+    
 
 
     public DatosNotas()
@@ -23,7 +23,7 @@ public class DatosNotas
         ListadeNotasFinales = new List<NotasFinales>();
         cargarNotasFinales();
 
-        ListaMatriculados = new List<matriculados>();
+        
     }
 
     private void cargarEstudiantes()
@@ -116,14 +116,14 @@ public class DatosNotas
         Console.ReadLine();
     }
 
-    public void ListarVendedores()
+    public void ListarAcumulados()
     {
         Console.Clear();
         Console.WriteLine("Lista de Acumulados");
         Console.WriteLine("===================");
         Console.WriteLine("");
         
-        foreach (var acumulados in ListadeAcumulados)
+        foreach (var acumulados in ListarAcumulados)
         {
             Console.WriteLine(acumulados.CodigoEstudiante + " | " + acumulados.NombreEstudiante + " | " + acumulados.CodigoEstudiante);
         }

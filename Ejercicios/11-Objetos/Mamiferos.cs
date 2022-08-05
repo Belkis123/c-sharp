@@ -5,7 +5,7 @@ public abstract class Mamifero: Animales
 
     public void Caminar()
     {
-        Console.WriteLine(" Tenemos glándulas mamarias productoras de leche mediante las que alimentamos a nuestras crías"); 
+        Console.WriteLine("Tenemos glándulas mamarias productoras de leche mediante las que alimentamos a nuestras crías"); 
     }
 
 }
