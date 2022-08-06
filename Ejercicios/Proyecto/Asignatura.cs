@@ -15,7 +15,7 @@ public class Asignaturas
 
     public double NotaFinal { get; set; }
     
-    public Asignaturas (int codigoAsignatura,string nombreAsignatura)
+    public Asignaturas(int codigoAsignatura,string nombreAsignatura)
     
     {
          
