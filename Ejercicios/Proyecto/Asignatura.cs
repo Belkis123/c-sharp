@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-public class DetalleNotas
+public class Asignaturas
 {
-    public List<Estudiante> ListadeEstudiantes { get; set; }
-    public List<Clases> ListadeClasesDisponibles { get; set; }
-
+    public int CodigoAsignatura { get; set; }
+     public string NombreAsignatura { get; set; }
+   
     public int Nota1 { get; set; }
     
     public int Nota2 { get; set; }
@@ -13,37 +13,24 @@ public class DetalleNotas
 
     public int Nota4 { get; set; }
 
-    public int NotaFinal { get; set; }
+    public double NotaFinal { get; set; }
     
-    public DetalleNotas (int nota1, int nota2, int nota3, int nota4,int notafinal)
+    public Asignaturas (int codigoAsignatura,string nombreAsignatura)
+    
     {
-      Nota1=nota1;
-      Nota2= nota2;
-      Nota3=nota3;
-      Nota4= nota4;
-      NotaFinal= notafinal;
-      ListadeEstudiantes= new List<Estudiante>();
-      ListadeClasesDisponibles= new List<Clases>();
+         
+      CodigoAsignatura= codigoAsignatura;
+      NombreAsignatura=nombreAsignatura;
 
-
-
+      
     }
+    public void
 
 
-    public DatosNotas()
-    {
-        ListadeEstudiantes= new List<Estudiante>();
-        cargarEstudiantes();
+    
 
-        ListadeClasesDisponibles = new List<ClasesDisponibles>();
-        cargarClases();
 
-        ListadeAcumulados = new List<Acumulados>();
-        cargarAcumulados();
-
-        ListadeNotasFinales = new List<NotasFinales>();
-        cargarNotasFinales();
-
+   
         
     }
 

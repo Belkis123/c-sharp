@@ -1,16 +1,13 @@
 public class Estudiante: Persona
 {
-    public double Registro{ get; set; }
-    public Estudiante(int codigo, string nombres, string edad)
-    {
-        Codigo = codigo;
-        Nombres = nombres;
-        Edad = edad;
-    }
-    public void EnviarNotificacio()
-    {
-         Console.WriteLine("Correo enviado a: " + Nombres);
-    }
+    
+    public int CodigoEstudiante { get; set; }
+    
+    public Estudiante (int codigoEstudiante,string nombre, string apellido)
+{
+    CodigoEstudiante= codigoEstudiante;
+    Nombre= nombre;
+    Apellido=apellido;
 
-
+}
 }
