@@ -62,7 +62,7 @@ public class Notas
         Asignaturas a5 = new Asignaturas(05, "Analisis", "55555");
         ListadeAsignaturas.Add(a5);
     }
-    public void listarAsignaturas ()
+    public void listarEstudiantes ()
     {
         Console.Clear();
         Console.Clear();
@@ -158,7 +158,7 @@ public class Notas
         if (asignatura.Nota4 >=100 || asignatura.Nota4 <= 0)
         {
             Console.WriteLine("Ingrese numero entre 1 a 100");
-            asignatura.Nota4=Int32.Parse(Console.ReadLine ());
+            asignatura.Nota4=Int32.Parse(Console.ReadLine());
             
         }
         asignatura.NotaFinal=(asignatura.Nota1+ asignatura.Nota2+ asignatura.Nota3+ asignatura.Nota4);
@@ -172,7 +172,7 @@ public class Notas
      public void notasFinales()
      {
          Console.Clear();
-        Console.WriteLine("Notas Acumuladas");
+        Console.WriteLine("Notas Finales");
         Console.WriteLine("*******************");
         Console.WriteLine("");
 
@@ -184,7 +184,7 @@ public class Notas
         if (estudiante== null)
         {
             Console.WriteLine("Estudiante no se encuentra en la base");
-        Console.ReadLine();
+            Console.ReadLine();
         return;
         }
         else
@@ -198,7 +198,7 @@ public class Notas
         {
             Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal+ "en " + nota.NombreAsignatura);
         }
-        Console.ReadLine();
+            Console.ReadLine();
      }
 
         

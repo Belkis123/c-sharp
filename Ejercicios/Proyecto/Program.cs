@@ -6,7 +6,7 @@ namespace Proyecto
     {
         static void Main(string[] args)
         {
-            DatosNotas datos = new DatosNotas
+            Notas notas= new Notas ();
             string opcion = "";
 
             while (true)
@@ -17,35 +17,34 @@ namespace Proyecto
                 Console.WriteLine("--------------------------");
                 Console.WriteLine("");
                 Console.WriteLine("1 - Lista de Estudiantes");
-                Console.WriteLine("2 - Crear Matricular");
-                Console.WriteLine("3 - Lista de Clases Disponibles");
-                Console.WriteLine("4 - Acumulados");
-                Console.WriteLine("5 - Notas Finales");
+                Console.WriteLine("2 - Lista de Clases Disponibles");
+                Console.WriteLine("3 - Acumulados");
+                Console.WriteLine("4 - Notas Finales");
                 Console.WriteLine("0 - Salir");
+                Console.WriteLine("");
+                Console.Write ("Ingrese una opcion");
                 opcion = Console.ReadLine();
 
                 switch (opcion)
                 {
                     case "1":
-                        datos.ListarEstudiantes();
+                        notas.listarEstudiantes();
                         break;
-                    case "2":
-                        datos.CrearMatricula();
+                     case "2":
+                        notas.listarAsignaturas();
                         break;
                     case "3":
-                        datos.ListarClases();
-                        break;
-                    case "4":
-                        datos.ListarAcumulados();
+                        notas.ingresarAcumulados();
                         break;      
-                    case "5":
-                        datos.ListarNotasFinales();
+                    case "4":
+                        notas.notasFinales();
                         break;                                          
                     default:
                         break;
                 }
 
-                if (opcion == "0") {
+                if (opcion == "0")
+                  Console.Clear();                 {
                     break;
                 }
             }
