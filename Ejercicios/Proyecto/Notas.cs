@@ -30,7 +30,7 @@ public class Notas
         Estudiante e5 = new Estudiante(005, "Javier Edgardo Rodriguez Paz");
         ListadeEstudiantes.Add(e5);
 
-        Estudiante e6 = new Estudiante(006 "Maria Guadalupe Lopez Zamora");
+        Estudiante e6 = new Estudiante(006,"Maria Guadalupe Lopez Zamora");
         ListadeEstudiantes.Add(e6);
 
         Estudiante e7 = new Estudiante(007, "Kimberly Gabriell Antunez");
@@ -127,29 +127,29 @@ public class Notas
         Console.WriteLine("");
 
         Console.Write("Nota1: ");
-        asignatura.Nota1= Int32.Parse(Console.ReadLine ());
+        asignatura.Nota1= Int32.Parse(Console.ReadLine());
 
         if (asignatura.Nota1 >=100 || asignatura.Nota1 <= 0)
         {
             Console.WriteLine("Ingrese numero entre 1 a 100");
-            asignatura.Nota1=Int32.Parse(Console.ReadLine ());
+            asignatura.Nota1=Int32.Parse(Console.ReadLine());
         }
         Console.Write("Nota2: ");
-        asignatura.Nota2= Int32.Parse(Console.ReadLine ());
+        asignatura.Nota2= Int32.Parse(Console.ReadLine());
 
          if (asignatura.Nota2 >=100 || asignatura.Nota2 <= 0)
         {
             Console.WriteLine("Ingrese numero entre 1 a 100");
-            asignatura.Nota2=Int32.Parse(Console.ReadLine ());
+            asignatura.Nota2=Int32.Parse(Console.ReadLine());
         }
    
         Console.Write("Nota3: ");
-        asignatura.Nota3= Int32.Parse(Console.ReadLine ());
+        asignatura.Nota3= Int32.Parse(Console.ReadLine());
 
         if (asignatura.Nota3 >=100 || asignatura.Nota3 <= 0)
         {
             Console.WriteLine("Ingrese numero entre 1 a 100");
-            asignatura.Nota3=Int32.Parse(Console.ReadLine ());
+            asignatura.Nota3=Int32.Parse(Console.ReadLine());
 
         }
         Console.Write("Nota4: ");
