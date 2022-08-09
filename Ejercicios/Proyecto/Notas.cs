@@ -15,39 +15,39 @@ public class Notas
     }
     private void cargarEstudiantes ()
     {
-        Estudiante e1 = new Estudiante(001, "Belkis Paola Tejada Melchor" );
+        Estudiante e1 = new Estudiante(001, "Belkis Paola" , "Tejada Melchor" );
         ListadeEstudiantes.Add(e1);
 
-        Estudiante e2 = new Estudiante(002, "Karen Dalila Navas Romero");
+        Estudiante e2 = new Estudiante(002, "Karen Dalila" , "Navas Romero");
         ListadeEstudiantes.Add(e2);
 
-        Estudiante e3 = new Estudiante(003, "Sara Elibeth Rosales Mejia");
+        Estudiante e3 = new Estudiante(003, "Sara Elibeth " , "Rosales Mejia");
         ListadeEstudiantes.Add(e3);
 
-        Estudiante e4 = new Estudiante(004, "David Alonso Cuevas Leon");
+        Estudiante e4 = new Estudiante(004, "David Alonso " , "Cuevas Leon");
         ListadeEstudiantes.Add(e4);
 
-        Estudiante e5 = new Estudiante(005, "Javier Edgardo Rodriguez Paz");
+        Estudiante e5 = new Estudiante(005, "Javier Edgardo " , "Rodriguez Paz");
         ListadeEstudiantes.Add(e5);
 
-        Estudiante e6 = new Estudiante(006,"Maria Guadalupe Lopez Zamora");
+        Estudiante e6 = new Estudiante(006,"Maria Guadalupe" , " Lopez Zamora");
         ListadeEstudiantes.Add(e6);
 
-        Estudiante e7 = new Estudiante(007, "Kimberly Gabriell Antunez");
+        Estudiante e7 = new Estudiante(007, "Kimberly Gabriell" , " Antunez");
         ListadeEstudiantes.Add(e7);
 
-        Estudiante e8 = new Estudiante(008, "Josue Caballero Valle");
+        Estudiante e8 = new Estudiante(008, "Josue Caballero" , "Valle");
         ListadeEstudiantes.Add(e8);
 
-        Estudiante e9 = new Estudiante(009, "Alejandra Paola Mejia");
+        Estudiante e9 = new Estudiante(009, "Alejandra Paola" , " Mejia");
         ListadeEstudiantes.Add(e9);
 
-        Estudiante e10 = new Estudiante(010, "Antony Gibran Perez Chinchilla");
+        Estudiante e10 = new Estudiante(010, "Antony Gibran " , "Perez Chinchilla");
         ListadeEstudiantes.Add(e10);
     }
     private void cargarAsignaturas ()
     {
-        Asignaturas a1 = new Asignaturas(01, "Quimica", "66666");
+        Asignaturas a1 = new Asignaturas(01, "Matematicas" , "66666");
         ListadeAsignaturas.Add(a1);
 
         Asignaturas a2 = new Asignaturas(02, "Espanol", "99999");
@@ -56,10 +56,10 @@ public class Notas
         Asignaturas a3 = new Asignaturas(03, "Sociologia", "88888");
         ListadeAsignaturas.Add(a3);
 
-        Asignaturas a4 = new Asignaturas(04, "Historia", "33333");
+        Asignaturas a4 = new Asignaturas(04, "Ciencias Naturales", "33333");
         ListadeAsignaturas.Add(a4);
 
-        Asignaturas a5 = new Asignaturas(05, "Analisis", "55555");
+        Asignaturas a5 = new Asignaturas(05, "Ciencias Sociales", "55555");
         ListadeAsignaturas.Add(a5);
     }
     public void listarEstudiantes ()
