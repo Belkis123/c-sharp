@@ -47,19 +47,19 @@ public class Notas
     }
     private void cargarAsignaturas ()
     {
-        Asignaturas a1 = new Asignaturas(01, "Matematicas" , "66666");
+        Asignaturas a1 = new Asignaturas(01, "Matematicas");
         ListadeAsignaturas.Add(a1);
 
-        Asignaturas a2 = new Asignaturas(02, "Espanol", "99999");
+        Asignaturas a2 = new Asignaturas(02, "Espanol");
         ListadeAsignaturas.Add(a2);
         
-        Asignaturas a3 = new Asignaturas(03, "Sociologia", "88888");
+        Asignaturas a3 = new Asignaturas(03, "Sociologia");
         ListadeAsignaturas.Add(a3);
 
-        Asignaturas a4 = new Asignaturas(04, "Ciencias Naturales", "33333");
+        Asignaturas a4 = new Asignaturas(04, "Ciencias Naturales");
         ListadeAsignaturas.Add(a4);
 
-        Asignaturas a5 = new Asignaturas(05, "Ciencias Sociales", "55555");
+        Asignaturas a5 = new Asignaturas(05,"Ciencias Sociales");
         ListadeAsignaturas.Add(a5);
     }
     public void listarEstudiantes ()
