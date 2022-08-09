@@ -22,7 +22,7 @@ namespace Proyecto
                 Console.WriteLine("4 - Notas Finales");
                 Console.WriteLine("0 - Salir");
                 Console.WriteLine("");
-                Console.Write ("Ingrese una opcion");
+                Console.Write ("Ingrese una opcion: ");
                 opcion = Console.ReadLine();
 
                 switch (opcion)
@@ -44,8 +44,8 @@ namespace Proyecto
                 }
 
                 if (opcion == "0")
-                  Console.Clear();                 {
-                    break;
+                {
+                  break;
                 }
             }
         }
