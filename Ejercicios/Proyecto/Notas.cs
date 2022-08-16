@@ -121,15 +121,19 @@ public class Notas
         Console.WriteLine("");
         Console.WriteLine("Estudinte:"+ estudiante.Nombre+ " "+ estudiante.Apellido);
         Console.WriteLine("");
+        Console.WriteLine("");
+
      }
      foreach( var asignatura in ListadeAsignaturas)
      
      {
+        Console.WriteLine("");
+
         Console.WriteLine("Asignatura:"+ asignatura.NombreAsignatura);
         Console.WriteLine("");
         Console.WriteLine("Ingresar las Notas Parciales");
-        Console.WriteLine("");
-
+        
+    
         Console.Write("Nota1: ");
         asignatura.Nota1= Int32.Parse(Console.ReadLine());
 
@@ -165,22 +169,25 @@ public class Notas
             asignatura.Nota4=Int32.Parse(Console.ReadLine());
             
         }
-        asignatura.NotaFinal=(asignatura.Nota1+ asignatura.Nota2+ asignatura.Nota3+ asignatura.Nota4);
+        asignatura.NotaFinal=(asignatura.Nota1+ asignatura.Nota2+ asignatura.Nota3+ asignatura.Nota4)/4;
+        
      }
      foreach (var nota in ListadeAsignaturas)
      {
-        Console.WriteLine("Su Nota Final es de :" + nota.NotaFinal + "en" + nota.NombreAsignatura);
+        Console.WriteLine("Su Nota Final es de : " + nota.NotaFinal + "en : " + nota.NombreAsignatura);
      }
        Console.ReadLine ();
      }
      public void notasFinales()
      {
-         Console.Clear();
+        Console.Clear();
         Console.WriteLine("                          Notas Finales                    ");
         Console.WriteLine("************************************************************");
         Console.WriteLine("");
+        Console.WriteLine("");
 
-        Console.WriteLine("Ingrese el Codigo del Estudiante:");
+
+        Console.WriteLine("Ingrese el Codigo del Estudiante: ");
         string codigoEstudiante= Console.ReadLine();
 
         Estudiante estudiante= ListadeEstudiantes.Find(e => e.CodigoEstudiante.ToString()== codigoEstudiante);
@@ -196,18 +203,21 @@ public class Notas
             Console.WriteLine("");
             Console.WriteLine("Estudiante: " + estudiante.Nombre + " " + estudiante.Apellido);
             Console.WriteLine("");
+            Console.WriteLine("");
+
             
         }
         foreach( var nota in ListadeAsignaturas)
         {
-            Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal+ "en " + nota.NombreAsignatura);
-        }
+            Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal + " en :  " + nota.NombreAsignatura);
+            
+
             Console.ReadLine();
      }
 
         
 
 }
+}
     
-
     
