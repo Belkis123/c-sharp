@@ -8,6 +8,7 @@ public class Estudiante: Persona
     CodigoEstudiante= codigoEstudiante;
     Nombre= nombre;
     Apellido=apellido;
+   
 
 }
 }

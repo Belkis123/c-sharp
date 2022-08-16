@@ -17,10 +17,10 @@ public class Notas
     }
     private void cargarEstudiantes ()
     {
-        Estudiante e1 = new Estudiante(1, "Belkis Paola" , "Tejada Melchor" );
+        Estudiante e1 = new Estudiante(1, "Belkis Paola" , "Tejada Melchor");
         ListadeEstudiantes.Add(e1);
 
-        Estudiante e2 = new Estudiante(2, "Karen Dalila" , "Navas Romero");
+        Estudiante e2 = new Estudiante(2, "Karen Dalila" , "Navas Romero" );
         ListadeEstudiantes.Add(e2);
 
         Estudiante e3 = new Estudiante(3, "Sara Elibeth " , "Rosales Mejia");
@@ -41,7 +41,7 @@ public class Notas
         Estudiante e8 = new Estudiante(8, "Josue Caballero" , "Valle");
         ListadeEstudiantes.Add(e8);
 
-        Estudiante e9 = new Estudiante(9, "Alejandra Paola" , " Mejia");
+        Estudiante e9 = new Estudiante(9, "Alejandra Paola" , " Mejia" );
         ListadeEstudiantes.Add(e9);
 
         Estudiante e10 = new Estudiante(010, "Antony Gibran " , "Perez Chinchilla");
