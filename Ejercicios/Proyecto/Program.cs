@@ -10,9 +10,10 @@ namespace Proyecto
         
             Notas notas= new Notas ();
             string opcion = "";
-            
+
             Console.BackgroundColor= ConsoleColor.White;
-            Console.ForegroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Green;
+            
 
             
             
