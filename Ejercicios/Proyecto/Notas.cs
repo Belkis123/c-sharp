@@ -91,8 +91,9 @@ public class Notas
     {
         
         Console.Clear();
-        Console.WriteLine("                         Lista de Clases Disponibles              ");
-        Console.WriteLine("***************************************************************");
+        Console.WriteLine("******************************************************************************************************************************");
+        Console.WriteLine("                                                          Lista de Clases Disponibles                                         ");
+        Console.WriteLine("******************************************************************************************************************************");
         Console.WriteLine("");
 
          foreach (var asignatura in ListadeAsignaturas)
@@ -107,8 +108,9 @@ public class Notas
     {
         
         Console.Clear();
-        Console.WriteLine("                       Notas Acumuladas                    ");
-        Console.WriteLine("**********************************************************");
+         Console.WriteLine("*******************************************************************************************************************************");
+        Console.WriteLine("                                                             Notas Acumuladas                                                  ");
+        Console.WriteLine("*******************************************************************************************************************************");
         Console.WriteLine("");
 
      Console.WriteLine("Ingresar el Codigo del Estudiante:");
@@ -191,9 +193,9 @@ public class Notas
      public void notasFinales()
      {
         Console.Clear();
-        Console.WriteLine("************************************************************");
-        Console.WriteLine("                          Notas Finales                    ");
-        Console.WriteLine("************************************************************");
+        Console.WriteLine("*******************************************************************************************************************************");
+        Console.WriteLine("                                                           Notas Finales                                                         ");
+        Console.WriteLine("*******************************************************************************************************************************");
         Console.WriteLine("");
         Console.WriteLine("");
 
