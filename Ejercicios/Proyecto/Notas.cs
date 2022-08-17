@@ -63,14 +63,21 @@ public class Notas
         Asignaturas a4 = new Asignaturas(04, "Matematicas");
         ListadeAsignaturas.Add(a4);
 
+        Asignaturas a5 = new Asignaturas(05, "Computacion");
+        ListadeAsignaturas.Add(a5);
+
+        Asignaturas a6 = new Asignaturas(06, "Artistica");
+        ListadeAsignaturas.Add(a6);
+
        
     }
     public void listarEstudiantes ()
     {
         
         Console.Clear();
-        Console.WriteLine("                          Lista de Estudiantes                 ");
-        Console.WriteLine("******************************************************************");
+         Console.WriteLine("***************************************************************************************************************************");
+        Console.WriteLine("                                                          Lista de Estudiantes                                                       ");
+        Console.WriteLine("***************************************************************************************************************************");
         Console.WriteLine("");
 
         foreach (var estudiante in ListadeEstudiantes)
@@ -169,7 +176,10 @@ public class Notas
             asignatura.Nota4=Int32.Parse(Console.ReadLine());
             
         }
+        
         asignatura.NotaFinal=(asignatura.Nota1+ asignatura.Nota2+ asignatura.Nota3+ asignatura.Nota4)/4;
+
+       
         
      }
      foreach (var nota in ListadeAsignaturas)
@@ -181,6 +191,7 @@ public class Notas
      public void notasFinales()
      {
         Console.Clear();
+        Console.WriteLine("************************************************************");
         Console.WriteLine("                          Notas Finales                    ");
         Console.WriteLine("************************************************************");
         Console.WriteLine("");
@@ -210,14 +221,13 @@ public class Notas
         foreach( var nota in ListadeAsignaturas)
         {
             Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal + " en :  " + nota.NombreAsignatura);
-            
-
             Console.ReadLine();
-     }
 
         
+         }
+     
+     }
+        
 
-}
-}
-    
+}  
     

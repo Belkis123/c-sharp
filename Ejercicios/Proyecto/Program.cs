@@ -10,14 +10,19 @@ namespace Proyecto
         
             Notas notas= new Notas ();
             string opcion = "";
+            
+            Console.BackgroundColor= ConsoleColor.White;
+            Console.ForegroundColor=ConsoleColor.Black;
 
+            
+            
             while (true)
-            {
-
-                  Console.WriteLine("\n\n\n\t\t\t\t   __      __   ___  | |   ___    ___    _ __ ___     ___  ");
-		         Console.WriteLine("\t\t\t\t   \\ \\ /\\ / /  / _ \\ | |  / __|  / _ \\  | '_ ` _ \\   / _ \\ ");
-		         Console.WriteLine("\t\t\t\t    \\ V  V /  |  __/ | | | (__  | (_) | | | | | | | |  __/  ");
-		         Console.WriteLine("\t\t\t\t     \\_/\\_/    \\___| |_|  \\___|  \\___/  |_| |_| |_|  \\___| ");
+            { 
+                Console.Clear();
+                Console.WriteLine("\n\n\n\t\t\t\t   __      __   ___  | |   ___    ___    _ __ ___     ___  ");
+		        Console.WriteLine("\t\t\t\t   \\ \\ /\\ / /  / _ \\ | |  / __|  / _ \\  | '_ ` _ \\   / _ \\ ");
+		        Console.WriteLine("\t\t\t\t    \\ V  V /  |  __/ | | | (__  | (_) | | | | | | | |  __/  ");
+		        Console.WriteLine("\t\t\t\t     \\_/\\_/    \\___| |_|  \\___|  \\___/  |_| |_| |_|  \\___| ");
                 Console.WriteLine("--------------------------");
                 Console.WriteLine("Sistema de Notas Escolares");
            
