@@ -16,7 +16,6 @@ namespace Proyecto
             
 
             
-            
             while (true)
             { 
                 Console.Clear();
