@@ -76,7 +76,7 @@ public class Notas
         
         Console.Clear();
          Console.WriteLine("***************************************************************************************************************************");
-        Console.WriteLine("                                                          Lista de Estudiantes                                                       ");
+        Console.WriteLine("                                                          LISTA DE ESTUDIANTES                                                      ");
         Console.WriteLine("***************************************************************************************************************************");
         Console.WriteLine("");
 
@@ -92,7 +92,7 @@ public class Notas
         
         Console.Clear();
         Console.WriteLine("******************************************************************************************************************************");
-        Console.WriteLine("                                                          Lista de Clases Disponibles                                         ");
+        Console.WriteLine("                                                          LISTA DE CLASES DISPONIBLES                                        ");
         Console.WriteLine("******************************************************************************************************************************");
         Console.WriteLine("");
 
@@ -109,7 +109,7 @@ public class Notas
         
         Console.Clear();
          Console.WriteLine("*******************************************************************************************************************************");
-        Console.WriteLine("                                                             Notas Acumuladas                                                  ");
+        Console.WriteLine("                                                             NOTAS ACUMULADAS                                                  ");
         Console.WriteLine("*******************************************************************************************************************************");
         Console.WriteLine("");
 
@@ -180,9 +180,9 @@ public class Notas
         }
         
         asignatura.NotaFinal=(asignatura.Nota1+ asignatura.Nota2+ asignatura.Nota3+ asignatura.Nota4)/4;
-
        
-        
+         
+
      }
      foreach (var nota in ListadeAsignaturas)
      {
@@ -194,7 +194,7 @@ public class Notas
      {
         Console.Clear();
         Console.WriteLine("*******************************************************************************************************************************");
-        Console.WriteLine("                                                           Notas Finales                                                         ");
+        Console.WriteLine("                                                        NOTAS FINALES                                                        ");
         Console.WriteLine("*******************************************************************************************************************************");
         Console.WriteLine("");
         Console.WriteLine("");
@@ -212,7 +212,7 @@ public class Notas
         return;
         }
         else
-        {
+        {   
             Console.WriteLine("");
             Console.WriteLine("Estudiante: " + estudiante.Nombre + " " + estudiante.Apellido);
             Console.WriteLine("");
@@ -222,8 +222,10 @@ public class Notas
         }
         foreach( var nota in ListadeAsignaturas)
         {
-            Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal + " en :  " + nota.NombreAsignatura);
+            Console.WriteLine( "SU NOTA FINAL ES DE: " + nota.NotaFinal + " en  " + nota.NombreAsignatura);
+        
             Console.ReadLine();
+
 
         
          }

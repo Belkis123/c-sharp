@@ -12,7 +12,7 @@ namespace Proyecto
             string opcion = "";
 
             Console.BackgroundColor= ConsoleColor.White;
-            Console.ForegroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Green;
             
 
             
@@ -25,18 +25,18 @@ namespace Proyecto
 		        Console.WriteLine("\t\t\t\t    \\ V  V /  |  __/ | | | (__  | (_) | | | | | | | |  __/  ");
 		        Console.WriteLine("\t\t\t\t     \\_/\\_/    \\___| |_|  \\___|  \\___/  |_| |_| |_|  \\___| ");
                 Console.WriteLine("              ------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("                                                     Sistema de Notas Escolares"                          );
+                Console.WriteLine("                                                    SISTEMA DE NOTAS ESCOLARES                                  "     );
            
 
                 Console.WriteLine("              ------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("");
-                Console.WriteLine("                       1 - Lista de Estudiantes"                             );
-                Console.WriteLine("                       2 - Lista de Clases Disponibles"                      );
-                Console.WriteLine("                       3 - Acumulados"                                       );
-                Console.WriteLine("                       4 - Notas Finales"                                    );
-                Console.WriteLine("                       0 - Salir"                                            );
+                Console.WriteLine("                       1 - Lista de Estudiantes                                                                   "  );
+                Console.WriteLine("                       2 - Lista de Clases Disponibles                                                             " );
+                Console.WriteLine("                       3 - Acumulados                                                     " );
+                Console.WriteLine("                       4 - Notas Finales                                                  ");
+                Console.WriteLine("                       0 - Salir                                                          ");
                 Console.WriteLine("");
-                Console.Write ("                           Ingrese una opcion: "                                );
+                Console.Write ("                           Ingrese una opcion:                ");
                 opcion = Console.ReadLine();
 
                 switch (opcion)
