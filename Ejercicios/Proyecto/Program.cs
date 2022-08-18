@@ -13,9 +13,7 @@ namespace Proyecto
 
             Console.BackgroundColor= ConsoleColor.White;
             Console.ForegroundColor=ConsoleColor.Green;
-            
-
-            
+                      
             while (true)
             { 
                 Console.Clear();
